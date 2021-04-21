@@ -1,0 +1,14 @@
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+.left {
+    text-align: left;
+}
+
+#right {
+    position: relative;
+    float: right;
+}
