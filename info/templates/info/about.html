@@ -1,22 +1,25 @@
-<!DOCTYPE HTML>
-<html>
+{% extends 'price/base.html' %}
+{% block content %}
+{% load static %}
+<div style="text-align:center">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="styles/style.css">
   <title>Dionysos</title>
-  <h1>About Page</h1>
+  <h1 style="margin: 5%">About Page</h1>
   <h2>Why the website is called Dionysos</h2>
 </head>
-<body>
-<p>The website is called Dionysos after a ancient greek god</p>
-<img src="pictures/dionysos.jpg" alt="dionysos">
+<body style="background-image: url({% static 'pictures/background.png' %}")>
+<p>The website is called Dionysos after an ancient greek god</p>
+<img class="resize" src="{% static 'pictures/god.png' %}" alt="dionysos">
 <p>Why to use Bitcoin</p>
-<ul>
-    <li>Reliable</li>
-    <li>Decentralized</li>
-    <li>Peer 2 Peer</li>
-    <li>Usage</li>
-</ul>
+</div>
+  <ul>
+      <li>Reliable</li>
+      <li>Decentralized</li>
+      <li>Peer 2 Peer</li>
+      <li>Usage</li>
+  </ul>
 
 </body>
-</html>
+</div>
+{% endblock %}

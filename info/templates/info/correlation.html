@@ -1,14 +1,17 @@
-<!DOCTYPE HTML>
-<html>
+{% extends 'price/base.html' %}
+{% load static %}
+
+{% block content %}
+<div style="text-align:center">
 <head>
   <meta charset="utf-8">
   <title>Dionysos</title>
-  <h1> How to Correlation is Calculated</h1>
+  <h1 style="margin: 5%"> How the Correlation is Calculated</h1>
 </head>
-<body>
-    <p>No Idea, i just use an online calculator</p>
-    <p> a lot of math</p>
-    <img src="pictures/math.jpg">
+<body style="background-image: url({% static 'pictures/background.png' %}")>
+    <p>No Idea, i just used the numpy function: "corrcoef"</p>
+    <p>And a lot of math</p>
+    <img class="resize" src="{% static 'pictures/math.png' %}">
     <table>
         <tr>
             <th>Cryptocurrency</th>
@@ -31,5 +34,6 @@
             <th>No</th>
         </tr>
     </table>
-</body>
-</html>
+    </body>
+</div>
+{% endblock %}
