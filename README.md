@@ -3,7 +3,7 @@ A django website, that shows you the correlation between the GameStop stock and 
 
 Requirements:
 - Python
-Python librarys:
+Python libraries:
 - Django
 - Pandas
 - Alpha_Vantage
@@ -14,7 +14,7 @@ Python librarys:
 ## Usage
 
 - Install python 3.x
-- Install the python librarys
+- Install the python libraries
 - Run: python3 manage.py runserver
 - And the website should run.
 
@@ -26,3 +26,9 @@ Tested on Ubuntu 2004.2021.222.0, but should work on other devices as well
 
 You can also use your own alpha_vantage-API-key or just use one of the 2 in my program.
 Note that you can only make 5 API-Calls per minute
+
+## Credits
+
+Python
+Python libraries
+Alpha_Vantage
