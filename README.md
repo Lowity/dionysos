@@ -22,3 +22,8 @@ Python librarys:
 
 Tested on Ubuntu 2004.2021.222.0, but should work on other devices as well
 An Alpha-Vantage API key is not needed you can use one of the 2 in the code
+
+## Informations
+
+You can also use your own alpha_vantage-API-key or just use one of the 2 in my program.
+Note that you can only make 5 API-Calls per minute
