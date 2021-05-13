@@ -11,5 +11,14 @@ Python librarys:
 - Plotly
 - Numpy
 
+## Usage
+
+- Install python 3.x
+- Install the python librarys
+- Run: python3 manage.py runserver
+- And the website should run.
+
+*Note that the website is only made for 1920 x 1080 screen resolution.*
+
 Tested on Ubuntu 2004.2021.222.0, but should work on other devices as well
 An Alpha-Vantage API key is not needed you can use one of the 2 in the code
