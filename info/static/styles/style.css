@@ -16,7 +16,12 @@ p {
 table {
     color: white;
     margin-left: auto; 
-    margin-right: auto
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 5em;
+}
+th {
+    padding: 10px;
 }
 
 img.resize {
