@@ -8,3 +8,5 @@ Requirements:
 - Matplotlib
 - Plotly
 - Numpy
+
+Tested on Ubuntu 2004.2021.222.0, but should work on other devices as well
