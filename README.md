@@ -29,6 +29,6 @@ Note that you can only make 5 API-Calls per minute
 
 ## Credits
 
-Python
-Python libraries
-Alpha_Vantage
+- Python
+- Python libraries
+- Alpha_Vantage
