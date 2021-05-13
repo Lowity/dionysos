@@ -2,9 +2,8 @@ import pandas as pd
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.cryptocurrencies import CryptoCurrencies
 import matplotlib.pyplot as plt
-from coinmarketcap import Market
 
-#key = "ECTDBRGFM8H7H2MR"
+#key2 = "ECTDBRGFM8H7H2MR"
 key = "OQ8414OJXCDP4DCV"
 
 def get_gme():
